@@ -3,7 +3,6 @@
 **/target
 
 **/target
-**/.env
 
 # Dependencies
 **/node_modules
@@ -14,7 +13,6 @@
 
 # Misc
 .DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -85,3 +83,7 @@ rustc-ice*
 .docs
 profiles/
 contracts.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
