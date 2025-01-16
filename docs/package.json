@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV='development' astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "dev": "node init && NODE_ENV='development' astro dev",
+    "start": "node init && astro dev",
+    "build": "node init && astro build",
     "astro": "astro",
     "check": "astro check",
     "typecheck": "tsc --project tsconfig.json --noEmit"
